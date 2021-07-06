@@ -9,11 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <section>
+    <section class="navbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100015179167735">Contact</a>
+        <a href="#recipies">My Recipe</a>
+        <a href="#experience">Experience</a>
+    </section>
+    <section class="flexible-container">
         <div class="half-width">
             <h1><span class="orange-color">Skip</span> The Diet</h1>
             <h1>Just Eat Healthy</h1>
@@ -23,40 +30,96 @@
                 Food</a>
         </div>
         <div class="center-img half-width">
-            <img src="images/taher-2-picture-with-bg (1).png" alt="">
+            <img class="banner-img" src="images/female/Group 8425.png" alt="">
         </div>
     </section>
-    <section class="top-banner">
-        <div class="center-img half-width">
-            <img src="images/female/6667872_preview-removebg-preview.png" alt="">
+    <section id="about" class="top-banner flexible-container">
+        <div class="half-width">
+            <img src="images/taher-2-picture-with-bg (3).png" alt="">
         </div>
         <div class="half-width">
-            <h1>About Me</h1>
-            <p>Hi my name is Abu Taher Risat. I am a junior web-developer.My father name is Mustafa Kamal. My mother name is Kohinoor Akter</p>
-            <a class="link-button" target="_blank" href="https://www.facebook.com/profile.php?id=100015179167735">contact me</a>
+            <h2>About Me</h2>
+            <p>Hi my name is Abu Taher Risat. I am a junior web-developer and i am a chef. I have completed my chef
+                course in london. My father name is Mustafa Kamal. My mother
+                name is Kohinoor Akter</p>
+            <a class="link-button" target="_blank"
+                href="https://www.facebook.com/profile.php?id=100015179167735">contact me</a>
     </section>
-    <section>
-        <div>
-            <h3>My Recipies</h3>
-        <p class="line-height">I made the recipie of chicken curry</p>
-        <p class="line-height">I made the recipie of vegetable pasta</p>
-        <p class="line-height">1500s</p>
+    <section id="recipies">
+        <div class="recipe-title">
+            <h2>My recipes</h2>
+            <div class="my-recipe">
+                <p>I made the recipie of chicken fry.I make chicken curry also.The recipie too easy for me</p>
+            </div>
+        </div>
+        <div class="recipies">
+            <div class="recipe">
+                <div class="recipe-img">
+                    <img src="images/food/Project Cover.jpg" alt="">
+                </div>
+                <div class="recipe-description">
+                    <h3>Jimmy Dean</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a, minima cum, consequatur suscipit
+                        aperiam, vel omnis exercitationem quae fuga excepturi delectus maiores alias impedit nobis autem
+                        qui ipsum sed.</p>
+                </div>
+            </div>
+            <div class="recipe">
+                <div class="recipe-img">
+                    <img src="images/food/curry.png" alt="">
+                </div>
+                <div class="recipe-description">
+                    <h3>Chicken Curry</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dicta sunt repellendus vel,
+                        distinctio reiciendis officia rerum repudiandae placeat veritatis nemo quos ratione, impedit
+                        veniam consequatur laudantium. A, velit maiores!</p>
+                </div>
+            </div>
+            <div class="recipe">
+                <div class="recipe-img">
+                    <img src="images/food/Project Cover1.jpg" alt="">
+                </div>
+                <div class="recipe-description">
+                    <h3>Beef Bhuna</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui unde repudiandae facere mollitia id
+                        odit laboriosam nobis distinctio debitis. Vitae deleniti quod delectus rerum consectetur itaque
+                        voluptatibus eaque error quisquam.</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section>
-        <h1>Recepie Title</h1>
-        <div>
-            <img src="images/food/Project Cover.jpg" alt="">
+    <section id="experience" class="experience-area flexible-container">
+        <div class="half-width">
+            <img src="images/taher-2-picture-with-bg (1).png" alt="">
         </div>
-        
-       <div>
-            
-            <p></p>
-        </div>
-        
+        <div class="half-width">
+            <div class="experience">
+                <h2>My experience</h2>
+                <p>I have experince in making sub continental dishes. I can make indian, chinese, italian cousine. I love to do cooking</p>
+                <a class="link-button" target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100015179167735">Find me</a>
+            </div>
     </section>
-    
-
+    <section class="bottom-section">
+        <div class="follower-section">
+            <div class="single-follower">
+                <h2 class="bottom-header">700k</h2>
+                <p>Youtube Subscriber</p>
+            </div>
+            <div class="single-follower">
+                <h2 class="bottom-header">2.4m</h2>
+                <p>Instagram Folloer</p>
+            </div>
+            <div class="single-follower">
+                <h2 class="bottom-header">100k</h2>
+                <p>Dribble SHot Likes</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2><span class="orange-color">FOOD</span><span id="footer-title"> NETWORK</span></h2>
+        <p>Eat healthy to live healthy.Live Healthy to live happy</p>
+    </footer>
 </body>
 
 </html>
